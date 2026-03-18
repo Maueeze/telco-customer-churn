@@ -1,5 +1,19 @@
 # Telco Customer Churn Prediction
 
+## 📁 Project Structure
+
+```
+telco-customer-churn/
+├── data/                  # raw dataset
+│   └── Telco_Customer_Churn.csv
+├── notebook/              # main analysis and modelling
+│   └── telco_customer_churn.ipynb
+├── README.md              # project description
+├── requirements.txt       # dependencies
+└── .gitignore
+```
+
+
 ## 📌 Project Overview
 
 This project focuses on analysing and predicting customer churn in a telecommunications company.
