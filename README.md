@@ -93,6 +93,12 @@ Evaluation metrics:
 
 ---
 
+## 📈 Model Performance
+
+![ROC Curve](images/roc_curve.png)
+
+---
+
 ## ⚠️ Limitations
 
 - dataset size is relatively small (~7000 rows),
