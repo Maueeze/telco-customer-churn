@@ -8,6 +8,8 @@ telco-customer-churn/
 │   └── Telco_Customer_Churn.csv
 ├── notebook/              # main analysis and modelling
 │   └── telco_customer_churn.ipynb
+├── images/                # important images from analysis
+│   └── roc_curve.png
 ├── README.md              # project description
 ├── requirements.txt       # dependencies
 └── .gitignore
@@ -82,6 +84,21 @@ Evaluation metrics:
 * Logistic Regression achieved the highest **ROC-AUC** and **recall**.
 * Decision Tree achieved the highest **accuracy**.
 * Random Forest performed well but did not outperform Logistic Regression.
+
+| Model               | Accuracy | Recall | ROC-AUC |
+|--------------------|----------|--------|--------|
+| Logistic Regression| 0.738    | 0.783  | 0.841  |
+| Decision Tree      | 0.798    | 0.567  | 0.830  |
+| Random Forest      | 0.775    | 0.465  | 0.819  |
+
+---
+
+## ⚠️ Limitations
+
+- dataset size is relatively small (~7000 rows),
+- no external data sources,
+- models were not hyperparameter-tuned,
+- potential multicollinearity between features.
 
 ---
 
